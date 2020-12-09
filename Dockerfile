@@ -7,7 +7,7 @@ RUN yarn build
 RUN yarn --production
 COPY . .
 
-FROM pandoc/core
+FROM pandoc/latex
 WORKDIR /app
 RUN apk add --update --no-cache nodejs
 COPY --from=builder /app /app
