@@ -71,6 +71,7 @@ export const availableValues = {
     'opml',              // (OPML)
     'opendocument',      // (OpenDocument)
     'org',               // (Emacs Org mode)
+    'pdf',               // (pdf through latex)
     'plain',             // (plain text),
     'pptx',              // (PowerPoint slide show)
     'rst',               // (reStructuredText)
